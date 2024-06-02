@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wforth=device-wforth, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="text-align: right;"><a href="../index.html">Back</a></h3>
+    
+    <form>
+        <table style="line-height: 0.3in; margin-left: auto; margin-right: auto;" >
+            <tr>
+            <th><img src="logo.png" width="50%" height="50%" ></th>
+            <th style="color:red; text-align: center;">Employee Registration Form</th>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" id="mr" name="title"><label for="mr">Mr.</label>
+                    <input type="radio" id="mrs" name="title"><label for="mrs">Mrs.<Label>
+                    <input type="radio" id="ms" name="title"><label for="ms">Ms.<Label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fname">Frist Name</label></td>
+                <td><input id="fname" type="text" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input id="lname" type="text" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="ma1">Mail Address 1</label></td>
+                <td><input id="ma1" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="ma2">Mail Address 2</label></td>
+                <td><input id="ma2" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input id="city" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="state">Province</label></td>
+                <td>
+                    <select id="state">
+                        <option value="Sindh">Sindh</option>
+                        <option value="KPK">KPK</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Balo">Balochistan</option>
+                        <option value="GB">GB</option>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip </label></td>
+                <td><input id="zip" type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="pic">Upload Photo </label></td>
+                <td><input id="pic" type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Email</label></td>
+                <td><input id="mail" type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile</label></td>
+                <td><input id="mobile" type="tel" placeholder="+92"></td>
+            </tr>
+            <tr>
+                <td><label for="lang">Languages Known</label></td>
+                <td>
+                    <input type="checkbox" id="eng" name="lang"><label for="eng">English</label><br>
+                    <input type="checkbox" id="ur" name="lang"><label for="ur">Urdu<Label><br>
+                    <input type="checkbox" id="pu" name="lang"><label for="pu">Punjabi<Label><br>
+                    <input type="checkbox" id="si" name="lang"><label for="si">Sindhi<Label><br>
+            </tr>
+            <tr>
+                <td> Additional Information </td>
+                <td> <textarea placeholder="Optional" rows="6" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Submit</button><button>Reset</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
